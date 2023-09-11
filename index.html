@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="styles/styles.css" />
+        <title>Hansel & Gretel</title>
     </head>
     <body>
         <navbar id="navbar">
@@ -15,7 +16,7 @@
                 <li><a class="chapter-link" href="./index.html">Home</a></li>
             </ul>
         </navbar>
-        <main>
+      <main id="indexMain">
         <section class="left column">
             <div class="box top">
                 <a class="chapter-link" href="./chapter1.html">
@@ -41,7 +42,8 @@
             </div>
         </section>
         <section class="center column">
-            <div class="box top">
+            <div class="box top topCenterBox">
+                <a class="moreLink" id="fullTextLink" href="https://www.cs.cmu.edu/~spok/grimmtmp/012.txt" target="_blank">Full Text</a>
             </div>
             <div class="box middle">
                 <div id="bookTitle">
@@ -52,8 +54,7 @@
                 </div>
             </div>
             <div class="box bottom bottomCenterBox">
-                <p><a id="fullTextLink" href="https://www.cs.cmu.edu/~spok/grimmtmp/012.txt" target="_blank">Full Text</a></p>
-                <p><a id="moreStoriesLink" href="https://www.cs.cmu.edu/~spok/grimmtmp/" target="_blank">More Stories</a></p>
+                <a class="moreLink" id="moreStoriesLink" href="https://www.cs.cmu.edu/~spok/grimmtmp/" target="_blank">More Stories</a>
             </div>
         </section>
         <section class="right column">
@@ -81,6 +82,6 @@
                 </a>
             </div>
         </section>
-        </main>
+      </main>
     </body>
 </html>
